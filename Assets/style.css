@@ -1,0 +1,74 @@
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+body{
+    padding-top: 0%;
+}
+
+header{
+    background-color: #46A18C;
+    border-bottom: 10px solid #4F3130;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-family:'Press Start 2P' ,sans-serif ;
+    color: white;
+    text-shadow: 5px 5px 0px #4F3130 ;
+}
+
+nav{
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Fira Code',Arial,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+a::before{
+    content: '';
+    background-color: #4F3130;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+
+}
+
+.button{
+    display: inline-block;
+    background-color: #753742;
+    padding: 17px 20px;
+    box-shadow: 5px 5px 0px #4F3130;
+    margin-right: 0;
+    border-radius: 4px ;
+    cursor: pointer;
+    transition: bounce 500ms ease;
+}
+
+.button:hover {
+	animation: bounce 1s;
+}
