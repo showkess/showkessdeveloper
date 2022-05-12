@@ -1,27 +1,16 @@
-h1{
+.title-name{
     font-family: 'Press Start 2P';
     font-size: 40px;
     font-weight: 400px;
     color: #F2545B;
     text-shadow: 6px 4px 0px #000000;
-    
 }
 
-
-/* .title-name{
-    font-family: 'Press Start 2P';
-    font-size: 40px;
-    font-weight: 400px;
-    color: #F2545B;
-    text-shadow: 6px 4px 0px #000000;
-    margin-top: 116px;
-} */
-
-/* .title-dev{
+.title-dev{
     font-family: 'Press Start 2P';
     font-size: 40px;
     font-weight: 400px;
     color: #F2545B;
     text-shadow: 6px 4px 0px #000000;
 
- */
+}
