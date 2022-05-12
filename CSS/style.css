@@ -28,7 +28,7 @@ header{
     align-items: center;
 }
 
-h1{
+.logo-initials{
     font-family:'Press Start 2P' ,sans-serif ;
     color: white;
     text-shadow: 5px 5px 0px #4F3130 ;
@@ -72,3 +72,5 @@ a::before{
 .button:hover {
 	animation: bounce 1s;
 }
+
+
